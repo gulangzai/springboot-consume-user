@@ -8,7 +8,7 @@
 	</parent>
 	
 	<groupId>jiujichina.com</groupId>
-	<artifactId>springboot</artifactId>
+	<artifactId>springboot-consume-user</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<dependencies>
@@ -198,6 +198,9 @@
 	</dependencyManagement>
 
 	<build>
+	
+	<finalName>springboot-consume-user</finalName>
+	
 		<plugins>
 			<!-- 资源文件拷贝插件 -->
 			<plugin>

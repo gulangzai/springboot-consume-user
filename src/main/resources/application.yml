@@ -1,4 +1,6 @@
 spring:
+   jmx: 
+      default-domain: springboot-consume-user
    application: 
       name: springboot-consume-user
    datasource:
